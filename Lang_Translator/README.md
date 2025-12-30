@@ -28,7 +28,7 @@ A simple and easy-to-use ComfyUI language switcher that allows you to switch bet
 - 📱 **自适应** - 按钮自动适配ComfyUI界面，支持窗口缩放
 
 ### 📸 效果展示
-
+![动图](https://github.com/user-attachments/assets/a53af565-4a07-490d-9e7a-a9466b65076f)
 
 ### 📦 安装方法
 
@@ -308,6 +308,7 @@ If this plugin helps you, please give it a ⭐ Star!
 Made with ❤️ for ComfyUI Community
 
 </div>
+
 
 
 
