@@ -29,17 +29,6 @@ A simple and easy-to-use ComfyUI language switcher that allows you to switch bet
 
 ### 📸 效果展示
 
-![按钮位置](Lang_Translator/images/button.png)
-*按钮位于ComfyUI工具栏*
-
-![中文界面](Lang_Translator/images/chinese.png)
-*中文界面*
-
-![英文界面](Lang_Translator/images/english.png)
-*英文界面*
-
-![动图演示](Lang_Translator/images/demo.gif)
-*切换演示*
 
 ### 📦 安装方法
 
@@ -319,6 +308,7 @@ If this plugin helps you, please give it a ⭐ Star!
 Made with ❤️ for ComfyUI Community
 
 </div>
+
 
 
 
