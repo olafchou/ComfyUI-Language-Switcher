@@ -36,13 +36,13 @@ A simple and easy-to-use ComfyUI language switcher that allows you to switch bet
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/YOUR_USERNAME/Lang_Translator.git
+git clone https://github.com/YOUR_USERNAME/ComfyUI-ZH-EN-Switcher.git
 ```
 
 #### 方法二：手动下载
 
 1. 下载本仓库的 ZIP 文件
-2. 解压到 `ComfyUI/custom_nodes/Lang_Translator` 目录
+2. 解压到 `ComfyUI/custom_nodes/ComfyUI-ZH-EN-Switcher` 目录
 3. 重启 ComfyUI
 
 ### 🎮 使用方法
@@ -73,10 +73,10 @@ git clone https://github.com/YOUR_USERNAME/Lang_Translator.git
 #### 文件结构
 
 ```
-Lang_Translator/
+ComfyUI-ZH-EN-Switcher/
 ├── __init__.py              # Python 入口文件
 ├── js/
-│   ├── lang_translator.js   # 核心功能实现
+│   ├── ComfyUI-ZH-EN-Switcher.js   # 核心功能实现
 │   └── styles.css           # CSS 样式（可选）
 ├── README.md                # 本文件
 ├── INSTALL.md               # 详细安装指南
@@ -97,7 +97,7 @@ Lang_Translator/
 A: 
 1. 确认 ComfyUI 已完全加载
 2. 按 F12 打开开发者工具，查看控制台是否有错误
-3. 确认插件安装在正确的位置：`ComfyUI/custom_nodes/Lang_Translator`
+3. 确认插件安装在正确的位置：`ComfyUI/custom_nodes/ComfyUI-ZH-EN-Switcher`
 4. 重启 ComfyUI
 </details>
 
@@ -128,10 +128,10 @@ A: 目前仅支持中英文切换。ComfyUI 官方目前也只支持这两种语
 
 ```bash
 # Windows
-rmdir /s ComfyUI\custom_nodes\Lang_Translator
+rmdir /s ComfyUI\custom_nodes\ComfyUI-ZH-EN-Switcher
 
 # Linux/Mac
-rm -rf ComfyUI/custom_nodes/Lang_Translator
+rm -rf ComfyUI/custom_nodes/ComfyUI-ZH-EN-Switcher
 ```
 
 然后重启 ComfyUI 即可。
@@ -185,13 +185,13 @@ rm -rf ComfyUI/custom_nodes/Lang_Translator
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/YOUR_USERNAME/Lang_Translator.git
+git clone https://github.com/YOUR_USERNAME/ComfyUI-ZH-EN-Switcher.git
 ```
 
 #### Method 2: Manual Download
 
 1. Download the ZIP file from this repository
-2. Extract to `ComfyUI/custom_nodes/Lang_Translator`
+2. Extract to `ComfyUI/custom_nodes/ComfyUI-ZH-EN-Switcher`
 3. Restart ComfyUI
 
 ### 🎮 Usage
@@ -222,10 +222,10 @@ git clone https://github.com/YOUR_USERNAME/Lang_Translator.git
 #### File Structure
 
 ```
-Lang_Translator/
+ComfyUI-ZH-EN-Switcher/
 ├── __init__.py              # Python entry file
 ├── js/
-│   ├── lang_translator.js   # Core functionality
+│   ├── ComfyUI-ZH-EN-Switcher.js   # Core functionality
 │   └── styles.css           # CSS styles (optional)
 ├── README.md                # This file
 ├── INSTALL.md               # Detailed installation guide
@@ -246,7 +246,7 @@ Lang_Translator/
 A: 
 1. Confirm ComfyUI is fully loaded
 2. Press F12 to open developer tools and check console for errors
-3. Confirm plugin is installed in the correct location: `ComfyUI/custom_nodes/Lang_Translator`
+3. Confirm plugin is installed in the correct location: `ComfyUI/custom_nodes/ComfyUI-ZH-EN-Switcher`
 4. Restart ComfyUI
 </details>
 
@@ -277,10 +277,10 @@ To remove the plugin, simply delete the folder:
 
 ```bash
 # Windows
-rmdir /s ComfyUI\custom_nodes\Lang_Translator
+rmdir /s ComfyUI\custom_nodes\ComfyUI-ZH-EN-Switcher
 
 # Linux/Mac
-rm -rf ComfyUI/custom_nodes/Lang_Translator
+rm -rf ComfyUI/custom_nodes/ComfyUI-ZH-EN-Switcher
 ```
 
 Then restart ComfyUI.
