@@ -2,7 +2,7 @@ import { app } from "../../scripts/app.js";
 
 // 语言切换扩展
 app.registerExtension({
-    name: "Lang_Translator.LanguageSwitcher",
+    name: "ComfyUI-ZH-EN-Switcher.LanguageSwitcher",
     
     async setup() {
         // 等待app完全初始化
@@ -104,7 +104,7 @@ app.registerExtension({
             
             // 确定新语言
             const newLang = currentLang === 'zh' ? 'en' : 'zh';
-            console.log(`Lang_Translator: 切换语言 ${currentLang} → ${newLang}`);
+            console.log(`ComfyUI-ZH-EN-Switcher: 切换语言 ${currentLang} → ${newLang}`);
             
             // 使用ComfyUI的设置API进行热更新（不刷新页面）
             if (app.ui && app.ui.settings && typeof app.ui.settings.setSettingValue === 'function') {
@@ -193,13 +193,14 @@ app.registerExtension({
         setTimeout(() => {
             const inserted = insertButton();
             if (inserted) {
-                console.log("Lang_Translator: 按钮已插入到工具栏");
+                console.log("ComfyUI-ZH-EN-Switcher: 按钮已插入到工具栏");
             } else {
-                console.log("Lang_Translator: 按钮使用独立定位");
+                console.log("ComfyUI-ZH-EN-Switcher: 按钮使用独立定位");
             }
         }, 1500);
         
-        console.log("Lang_Translator: 语言切换按钮初始化完成");
+        console.log("ComfyUI-ZH-EN-Switcher: 语言切换按钮初始化完成");
     }
 });
+
 
